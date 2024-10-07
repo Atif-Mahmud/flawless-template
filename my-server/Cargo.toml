@@ -1,0 +1,14 @@
+[package]
+name = "my-server"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[build-dependencies]
+flawless-utils = "1.0.0-beta.1"
+
+[dependencies]
+flawless-utils = "1.0.0-beta.1"
+hello = { path = "./workflows/hello" }
+my-workspace-hack = { version = "0.1", path = "../my-workspace-hack" }
+tokio = { version = "1.40.0", features = ["full"] }

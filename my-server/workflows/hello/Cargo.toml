@@ -1,0 +1,9 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+flawless = "1.0.0-beta.1"
+serde = "1.0.210"
+log = "0.4"
